@@ -2,12 +2,15 @@
     border: 1px solid red;
     height: 90vh;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
     /* the main axis is row */
-    flex-direction: row;
+    /* flex-direction: row; */
     /* justify content aligns items along the main axis */
+    /* justify-content: space-between; */
+    /* align items aligns items along the cross axis */
+    /* align-items: flex-start; */
+
     justify-content: center;
-    /* align items aligns item along the cross axis */
     align-items: center;
 }
 
@@ -17,8 +20,9 @@
   background-color: red;  
   margin: 10px;
   font-size: 48px;
-} 
 
-.item-1 {
-    flex-grow: 1;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+
