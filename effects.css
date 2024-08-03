@@ -1,0 +1,12 @@
+.first {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 1s;
+}
+
+.first:hover {
+    transform: scale(2) translate(50px,50px) rotate(45deg);
+    /* width: 200px;
+    background-color: green; */
+}
