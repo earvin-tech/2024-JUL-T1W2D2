@@ -31,4 +31,31 @@
 
 img {
     width: 300px;
+} 
+
+.second {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: animation-for-second;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
+
+@keyframes animation-for-second {
+    0% {
+        width: 100px;
+    }
+    25% {
+        width: 50px;
+    }
+    50% {
+        width: 200px;
+    }
+    75% {
+        width: 400px;
+    }
+    100% {
+        width: 100px;
+    }
 }
