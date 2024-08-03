@@ -59,3 +59,38 @@ img {
         width: 100px;
     }
 }
+
+.parent-typing-effect {
+    margin-top: 50px;
+    display: flex;
+}
+
+.typing-effect {
+    font-size: 24px;
+    animation: typing-effect .5s, change-width 5s steps(32,end);
+    animation-iteration-count: infinite;
+
+    white-space: nowrap;
+    overflow: hidden;
+} 
+
+@keyframes change-width {
+    0% {
+        width: 0;
+    }
+    25% {
+        width: 0;
+    }
+    50% {
+        width: 100%;
+    }
+}
+
+@keyframes typing-effect {
+    0% {
+        border-right: none;
+    }
+    50% {
+        border-right: 1px solid black;
+    }
+}
